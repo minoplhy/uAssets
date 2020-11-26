@@ -1107,6 +1107,7 @@ australianfrequentflyer.com.au##+js(acis, $, adsBlocked)
 ! https://github.com/NanoMeow/QuickReports/issues/3083
 ! https://github.com/NanoMeow/QuickReports/issues/3104
 advocate.com,arobasenet.com,cultofmac.com,currentaffairs.gktoday.in,dailycaller.com,dogtime.com,fallbrook247.com,gamesgames.com,gazettenet.com,insidenova.com,jetztspielen.de,leitesculinaria.com,onmsft.com,practicalpainmanagement.com,pwinsider.com,rawstory.com,ruinmyweek.com,sanangelolive.com,sanfoundry.com,selfhacked.com,sporcle.com,stylecaster.com,upi.com,viraliq.com##+js(aopr, googletag)
+sanfoundry.com##.sf-desktop-ads
 
 ! https://www.wilderssecurity.com/threads/ublock-a-lean-and-fast-blocker.365273/page-107#post-2668597
 ! https://www.wilderssecurity.com/threads/ublock-a-lean-and-fast-blocker.365273/page-126#post-2719661
@@ -13764,9 +13765,6 @@ zii10.*##+js(nofab)
 idfl.top##[href="http://dewanmas.com/"]
 idfl.top##[href="http://menangvip.org/"]
 
-! https://github.com/uBlockOrigin/uAssets/issues/5122
-@@||playgroundmag.net^$ghide
-
 ! https://github.com/uBlockOrigin/uAssets/issues/5120
 @@||svonm.com/hd-main.js$script,domain=kicker.de|kino.de|videos.giga.de|video.spieletipps.de
 !#if env_chromium
@@ -13882,16 +13880,11 @@ lebahkaca.com##.close-modal
 @@||sageadvice.eu^$ghide
 sageadvice.eu##.adsbygoogle
 
-! https://github.com/uBlockOrigin/uAssets/issues/5166
-@@||otakunation.org^$ghide
-
 ! https://github.com/uBlockOrigin/uAssets/issues/5167
 sslproxies24.top##+js(aeld, load, 2000)
 sslproxies24.top##.adsbygoogle, .Feed.widget, #HTML1, #HTML3, [href^="https://brave.com/"], [href^="http://www.linkev.com/"], [href^="https://strongvpn.com/"]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5168
-! https://github.com/NanoAdblocker/NanoCore/issues/261
-@@||nyaa.pantsu.cat^$ghide
 @@||nyaa.*^$ghide
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5170
@@ -14200,8 +14193,7 @@ dausel.co##[id^="aswift"]
 
 ! https://github.com/NanoMeow/QuickReports/issues/1773
 @@||animefever.tv^$ghide
-@@||ssl.p.jwpcdn.com/player/plugins/vast/*/vast.js$xhr,domain=animefever.tv
-*$xhr,redirect-rule=noopjs,domain=animefever.tv
+@@*$xhr,3p,domain=animefever.tv
 
 ! https://github.com/dhowe/AdNauseam/issues/1476
 @@||podstacja.com^$ghide
@@ -14289,7 +14281,8 @@ earnwithshortlink.com##+js(nowebrtc)
 ||uriren.pw^$3p
 
 ! mangamanga. ml popups
-mangamanga.*##+js(acis, atob, decodeURI)
+mangamanga.*##+js(acis, String.fromCharCode, btoa)
+mangamanga.*##+js(aeld, keydown)
 
 ! fuckdy .com popups
 fuckdy.com##+js(aopr, Popunder)
@@ -14345,10 +14338,10 @@ verpelis.info##+js(popads-dummy)
 verpelis.info##[class^="get-enlace"]:style(display: block !important;)
 verpelis.info###fake
 
-! https://github.com/NanoMeow/QuickReports/issues/917
 ! https://github.com/NanoMeow/QuickReports/issues/1132
 alternet.org##+js(aopr, googletag)
 alternet.org##+js(nostif, null)
+alternet.org###leaderboard-placeholder
 
 ! https://github.com/NanoMeow/QuickReports/issues/918
 720pstream.me##+js(acis, Math, zfgloaded)

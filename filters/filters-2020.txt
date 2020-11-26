@@ -5923,7 +5923,6 @@ hubdrive.xyz##+js(nowoif)
 hubdrive.xyz##+js(acis, Math.imul)
 *$script,3p,domain=moviezcrush.com
 ||ejirytuw.xyz^
-||ytymetuw.xyz^
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67445
 exbulletin.com##+js(aopr, ai_front)
@@ -6052,7 +6051,6 @@ lolowall.com##+js(aopr, adBlockDetected)
 microtx.id##+js(aopr, adBlockDetected)
 microtx.id##+js(nano-sib)
 ||bitzad.com^$3p
-||uzozagug.xyz^
 
 ! streamingcommunity .net anti adb + popups
 streamingcommunity.net##+js(nosiif, visibility, 1000)
@@ -6273,3 +6271,16 @@ bollyholic.pw##div[class][style="float: none; margin:10px 0 10px 0; text-align:c
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68391
 tecnomusic-evolution.com##+js(nosiif, visibility, 1000)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/68438
+beverfood.com##+js(nostif, offsetHeight)
+beverfood.com##.switchabig
+
+! https://github.com/uBlockOrigin/uAssets/issues/8275
+freemiumaccounts.net##+js(nosiif, visibility, 1000)
+freemiumaccounts.net##+js(aopw, adcashMacros)
+
+! camthots.tv pre-roll ads
+camthots.tv##+js(acis, crakPopInParams)
+camthots.tv##+js(set, flashvars.adv_pre_vast, '')
+camthots.tv##.table
