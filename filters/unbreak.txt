@@ -499,9 +499,6 @@ orange.fr###o_carrepub:style(height: 1px; margin: 0; min-height: auto; visibilit
 ! https://forums.lanik.us/viewtopic.php?f=64&t=38688
 @@||googletagmanager.com/gtm.js$script,domain=fullcontact.com
 
-! https://forums.lanik.us/viewtopic.php?f=64&t=38681
-||mbid.advance.net/tags/*$script,redirect=noopjs
-
 ! https://github.com/uBlockOrigin/uAssets/issues/786
 @@||flightradar24.com/static/*/statistics.js$script,1p
 
@@ -1118,10 +1115,6 @@ techadvisor.co.uk#@#.adsbygoogle
 ! https://forums.lanik.us/viewtopic.php?f=64&t=41588
 ||smartsuppchat.com^$3p,badfilter
 
-! https://forums.lanik.us/viewtopic.php?f=64&t=41591
-/adsession.$badfilter
-/adsession.$domain=~adsession.com
-
 ! https://forums.lanik.us/viewtopic.php?f=64&t=41612
 @@||discover.com/discover/reporting/AppMeasurement.js$1p
 
@@ -1160,7 +1153,6 @@ nbcsports.com#@##nbcsports-leaderboard
 @@||cdn.cxense.com/cx.js$script,domain=mega.cl
 
 ! https://forums.lanik.us/viewtopic.php?f=64&t=41714
-@@||fusion.ddmcdn.com/app/*/comscore.streaming.$script,domain=destinationamerica.com
 @@||v.fwmrm.net/ad/$script,xhr,domain=destinationamerica.com
 @@||src.litix.io/core/*/mux.js$script,domain=destinationamerica.com
 
@@ -1295,7 +1287,7 @@ tubewolf.com##.bnnr
 
 ! fix broken functionality with some configuratons
 ! caused by the redirection
-||google-analytics.com/ga.js$script,redirect=none,domain=download-chromium.appspot.com
+@@||google-analytics.com/ga.js$script,redirect-rule,domain=download-chromium.appspot.com
 
 ! https://github.com/uBlockOrigin/uAssets/issues/3995
 ||p.jwpcdn.com/*/vast.js$script,important,domain=timesnownews.com
@@ -1462,12 +1454,6 @@ gplcanyon.com#@#.adsbygoogle
 ! https://github.com/easylist/easylist/issues/2631
 /performancetimer.js$badfilter
 
-! https://github.com/easylist/easylist/issues/2623
-||seedpeer.me^$csp=script-src 'self' 'unsafe-inline',badfilter
-seedpeer.me##.section.page-content > .container > div > div:has-text(/recommended/i)
-||seedpeer.unblocked.*^$frame,1p
-||seedpeer.me^$frame,1p
-
 ! https://github.com/easylist/easylist/issues/1856
 kizi.com##+js(set, adblock_active, false)
 
@@ -1567,8 +1553,8 @@ hawaiitribune-herald.com,thegardenisland.com,westhawaiitoday.com#@#.header-ad
 
 ! https://forums.lanik.us/viewtopic.php?f=64&t=42649
 ! https://github.com/AdguardTeam/AdguardFilters/issues/46988
-://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.atmosphere.copernicus.eu|~ads.bigbom.com|~ads.brave.com|~ads.buscaempresas.co|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.dollartree.com|~ads.elcarado.com|~ads.google.com|~ads.harvard.edu|~ads.lapalingo.com|~ads.lordlucky.com|~ads.microsoft.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.route.cc|~ads.safi-gmbh.ch|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com,badfilter
-://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.atmosphere.copernicus.eu|~ads.bigbom.com|~ads.brave.com|~ads.buscaempresas.co|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.dev.int.revelian.com|~ads.dollartree.com|~ads.elcarado.com|~ads.google.com|~ads.harvard.edu|~ads.lapalingo.com|~ads.lordlucky.com|~ads.microsoft.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.route.cc|~ads.safi-gmbh.ch|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
+://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.atmosphere.copernicus.eu|~ads.bigbom.com|~ads.brave.com|~ads.buscaempresas.co|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.dollartree.com|~ads.elcarado.com|~ads.gambinoslot.com|~ads.google.com|~ads.harvard.edu|~ads.instacart.com|~ads.lapalingo.com|~ads.lordlucky.com|~ads.microsoft.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.route.cc|~ads.safi-gmbh.ch|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com,badfilter
+://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.atmosphere.copernicus.eu|~ads.bigbom.com|~ads.brave.com|~ads.buscaempresas.co|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.dev.int.revelian.com|~ads.dollartree.com|~ads.elcarado.com|~ads.gambinoslot.com|~ads.google.com|~ads.harvard.edu|~ads.instacart.com|~ads.lapalingo.com|~ads.lordlucky.com|~ads.microsoft.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.route.cc|~ads.safi-gmbh.ch|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
 
 ! https://forums.lanik.us/viewtopic.php?p=145834#p145834
 dday.it#@#.sponsored
@@ -1756,7 +1742,9 @@ boards.4chan.org,boards.4channel.org#@#.middlead
 
 ! https://github.com/easylist/easylist/issues/3261
 @@||adswizz.com/anon.npr-mp3/*$media,domain=podbay.fm|podbean.com
-@@||adswizz.com/anon.npr-podcasts/*$media,domain=player.fm|podbay.fm|podbean.com
+@@||adswizz.com/anon.npr-podcasts/*$media,domain=podbay.fm|podbean.com
+! https://www.reddit.com/r/uBlockOrigin/comments/k8xd8x/playerfm_certain_podcasts_unplayable_with_ubo/
+@@||player.fm^$cname
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1633#issuecomment-484331547
 @@||fileflares.com:$popup,1p
@@ -1783,9 +1771,6 @@ kzstock.blogspot.com#@##ad-target
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5479
 @@||api.deep.bi/v3/init.js$script,domain=elconfidencial.com
-
-! https://github.com/easylist/easylist/issues/3352
-||stackpathdns.com^$image,domain=boomsbeat.com|dramastars.com|enstarz.com|foreverymom.com|hngn.com|itechpost.com|kpopstarz.com|latinpost.com|natureworldnews.com|parentherald.com|readysethealth.com|realtytoday.com|sciencetimes.com|sportsworldreport.com|universityherald.com|vcpost.com|youthhealthmag.com,badfilter
 
 ! https://github.com/NanoMeow/QuickReports/issues/1117
 ! https://forums.lanik.us/viewtopic.php?f=64&t=44086
@@ -1881,10 +1866,6 @@ downloadsource.*##.date:not(dt):style(display: block !important;)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5662
 @@||nbc*.com/includes/AppMeasurement.js$script,1p
-
-! https://forums.lanik.us/viewtopic.php?f=103&t=43064
-@@||adobedtm.com/*/satelliteLib$script,domain=fcbarcelona.cat|fcbarcelona.cn|fcbarcelona.com|fcbarcelona.es|fcbarcelona.fr|fcbarcelona.jp
-@@||adobedtm.com/*/mbox-contents-$script,domain=fcbarcelona.cat|fcbarcelona.cn|fcbarcelona.com|fcbarcelona.es|fcbarcelona.fr|fcbarcelona.jp
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/btf6os/add_exception_to_ublock_filters_request/
 ! https://github.com/uBlockOrigin/uAssets/issues/5900
@@ -2015,9 +1996,6 @@ bestescapegames.com##.add_divbig
 ! https://github.com/uBlockOrigin/uAssets/issues/5943
 @@||adobedtm.com^*/satellitelib-$script,domain=auspost.com.au
 
-! https://forums.lanik.us/viewtopic.php?f=64&t=43289
-|http*://$3p,xhr,domain=stream2watch.ws,badfilter
-
 ! https://www.reddit.com/r/uBlockOrigin/comments/cetv3v/
 @@||cpt-static.gannettdigital.com/*-comscore$xhr
 
@@ -2075,10 +2053,6 @@ wallpaperplay.com##.adsbygoogle
 
 ! https://forums.lanik.us/viewtopic.php?p=149059#p149059
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$script,domain=watch.motortrend.com
-
-! https://github.com/uBlockOrigin/uAssets/issues/5926#issuecomment-518770378
-|https://$3p,script,domain=01fmovies.com,badfilter
-|https://$3p,xhr,domain=01fmovies.com,badfilter
 
 ! https://github.com/uBlockOrigin/uAssets/issues/6055
 ||googletagservices.com/tag/js/gpt.js$script,redirect=noopjs,domain=ladbible.com
@@ -3507,9 +3481,6 @@ humanbenchmark.com##+js(set, pubg.unload, noopFunc)
 |https://$subdocument,3p,domain=moviesweb.info,badfilter
 |https://$image,3p,domain=moviesweb.info,badfilter
 
-! thememazing .com broken page
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,redirect-rule=nooptext
-
 ! https://github.com/uBlockOrigin/uAssets/issues/7723
 @@||message-fra.sp-prod.net^$script,xhr,domain=manager-magazin.de
 
@@ -3596,7 +3567,7 @@ hubblespacetelescope.blogspot.com#@#.vertical-ads
 @@||tags.tiqcdn.com/utag/*/utag$script,domain=eprice.it
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/ifqs00/help/
-||google-analytics.com/analytics.js$script,redirect-rule=none,domain=istripper.com
+@@||google-analytics.com/analytics.js$script,redirect-rule,domain=istripper.com
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/ifvbor/
 !#if env_firefox
@@ -3614,7 +3585,7 @@ hubblespacetelescope.blogspot.com#@#.vertical-ads
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7853
 !#if env_chromium
-||googletagservices.com^$script,redirect-rule=none,domain=express.co.uk
+@@||googletagservices.com^$script,redirect-rule,domain=express.co.uk
 !#endif
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7856
@@ -3622,7 +3593,7 @@ eslint.org#@#.sponsor-link
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7858
 !#if env_chromium
-||googletagmanager.com^$script,redirect-rule=none,domain=olx.ua
+@@||googletagmanager.com^$script,redirect-rule,domain=olx.ua
 !#endif
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7859
@@ -3658,9 +3629,6 @@ hentaiplay.net###video_overlays
 @@||arthromed.de^$ghide
 @@||arthromed.de/fileadmin/*$image,1p
 @@||maps.googleapis.com/maps/api/*$image,domain=arthromed.de
-
-! https://www.faz.net/video/folgen-der-trockenheit-das-wachsende-wasser-problem-16937081.html broken video
-@@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$script,domain=faz.net
 
 ! https://www.bz-berlin.de/video broken video
 @@||sp-prod.net/wrapperMessagingWithoutDetection.js$script,domain=bz-berlin.de
@@ -3926,3 +3894,39 @@ hero-magazine.com###header:style(position: inherit !important;)
 
 ! egy.best broken download buttons
 ||cdn-static.egybest.*/packed/$badfilter
+
+! https://github.com/easylist/easylist/issues/6536#issuecomment-734950467
+||securepubads.g.doubleclick.net/tag/js/gpt.js$script,important,redirect=noop.js,domain=indy100.com
+
+! iceporn.com cname issue
+@@||cdn13.com^$script,domain=iceporn.com
+
+! broken video => https://www.boysfood. com/free-porn-videos/39188768/perfect-boobs-nia-nacci-in-action
+@@||googleads.github.io/videojs-ima/$css,domain=boysfood.com
+
+! Image loading broken on wineenthusiast.com
+@@||tags.tiqcdn.com/utag/$script,domain=wineenthusiast.com
+
+! strict-blocked and broken by Peter Lowe's and anti-adb
+||crypto-loot.org^$badfilter
+||crypto-loot.org^$3p
+
+! https://twitter.com/christopherw/status/1334108132142948355
+@@||googletagmanager.com/gtm.js$script,domain=tortoisemedia.com
+
+! Counter Peter Lowe's 
+||shareasale.com^$badfilter
+
+! https://github.com/easylist/easylist/issues/6596
+@@||cdn13.com^$script,domain=thisvid.com
+
+! https://www.reddit.com/r/uBlockOrigin/comments/k74vt7/need_help_ubo_seems_to_be_overblocking/
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=mewatch.sg
+@@||youborafds01.com/data?outputformat=json$xhr,domain=mewatch.sg
+@@||pubads.g.doubleclick.net/gampad/ads$xhr,domain=mewatch.sg
+
+! https://www.reddit.com/r/uBlockOrigin/comments/k7saee/
+@@||ssl-images-amazon.com/*/satelliteLib-$script,domain=audible.*
+
+! unviewable subtitle https://github.com/easylist/easylist/commit/4282a904a8036cf8b7d81247ba910e99ddb063e7
+digg.com##.single-story > header:style(margin-top: 40px !important)
